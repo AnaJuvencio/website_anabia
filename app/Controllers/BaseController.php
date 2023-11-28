@@ -21,6 +21,7 @@ use Psr\Log\LoggerInterface;
  */
 abstract class BaseController extends Controller
 {
+    #protected $viewPath = 'pages';
     /**
      * Instance of the main Request object.
      *
@@ -48,6 +49,7 @@ abstract class BaseController extends Controller
      */
     public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)
     {
+        
         // Do Not Edit This Line
         parent::initController($request, $response, $logger);
 
