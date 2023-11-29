@@ -1,33 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href='https://fonts.googleapis.com/css?family=Nanum Pen Script' rel='stylesheet'>
-</head>
-
-<body>
-  <!-- Barra superior (topbar)
-  <section id="topbar" class="topbar d-flex align-items-center">
-    <div class="container d-flex justify-content-center justify-content-md-between">
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a
-            href="mailto:contact@example.com">contact@example.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
-      </div>
-      <div class="social-links d-none d-md-flex align-items-center">
-        <!--<a href="" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="https://www.facebook.com/projetobemparatodos?locale=pt_BR" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/projetobemparatodos_/" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/company/projeto-bem-para-todos-sp/" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-      </div>
-    </div>
-  </section><!-- End Top Bar -->
-
-  <!-- Espaço de preenchimento para o cabeçalho (header) -->
-  <div class="header-padding"></div>
-
   <!-- Cabeçalho (header) -->
   <header class="header">
 
@@ -50,9 +20,6 @@
     </div><!--content-->
 
   </header>
-</body>
-
-</html>
 
 
 <style>

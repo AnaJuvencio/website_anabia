@@ -19,7 +19,7 @@
   <link rel="stylesheet"
     data-font="Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
     href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
-    <?php include ("components/header.php");?>
+    <?php include("components/header.php"); ?>
   </head>
 
 
@@ -46,8 +46,8 @@
               <div
                 class="u-container-layout u-valign-bottom-md u-valign-bottom-sm u-valign-bottom-xl u-valign-bottom-xs u-valign-top-lg u-block-7c14-5">
                 <img
-                  class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xs u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-image u-block-7c14-19"
-                  src="//images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/b6e8c2a70906581b91e227b1/ss-min.png"
+                  class=" resized-image "
+                  src="../public/images/anabeatriz1.png"
                   data-image-width="700" data-image-height="870" data-hover-preset-name="fadeIn"
                   data-animation-name="customAnimationIn" data-animation-duration="1500"></div>
             </div>
@@ -74,6 +74,36 @@
         </div>
       </div>
     </div>
+    <style>
+      body{
+        padding-top: 80px; 
+        min-width: 100%;
+      }
+      section{
+        width: 100%;
+      }
+      @media (max-width: 767px) {
+        body{
+          padding-top: 80px; 
+          width: 100%;
+        }
+      }
+      @media (min-width: 767px) {
+        .resized-image {
+          width: 500px; /* largura desejada */
+          height: auto; /* altura ajustada automaticamente para manter a proporção */
+          padding-left: 100px;
+        }
+      }
+      @media (max-width: 767px) {
+        .resized-image {
+          width: 70%; /* largura desejada */
+          height: auto; /* altura ajustada automaticamente para manter a proporção */
+        }
+      }
+      
+      
+    </style>
     <style data-mode="XL" data-visited="true" wfd-invisible="true">
       @media (min-width: 1200px) {
         .u-block-7c14-18 {
