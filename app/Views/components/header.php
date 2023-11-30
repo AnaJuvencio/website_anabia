@@ -25,7 +25,7 @@
 <style>
   .header {
 
-    background-color: #fff;
+    background-color: #113D63;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
     position: fixed;
     top: 0;
@@ -33,7 +33,7 @@
     width: 100%;
     z-index: 1;
     float: left;
-
+    height: 80px;
   }
 
   .header ul {
@@ -42,7 +42,7 @@
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #fff;
+    background-color: #113D63;
 
   }
 
@@ -53,14 +53,14 @@
     text-decoration: none;
     transition: .3s;
     border-bottom: 1px #f7f7f7 solid;
-    color: #242424;
+    color: #fff;
 
   }
 
   .header li a:hover,
   .header .btn-mobile:hover {
 
-    background-color: #02a1ee;
+    background-color: #BCCBD8;
     color: #fff;
 
   }
@@ -91,7 +91,7 @@
   }
 
   .header .mobile-icon .hamburguer {
-    background: #333;
+    background: #fff;
     display: block;
     height: 2px;
     position: relative;
@@ -101,7 +101,7 @@
 
   .header .mobile-icon .hamburguer:before,
   .header .mobile-icon .hamburguer:after {
-    background: #333;
+    background: #fff;
     content: '';
     display: block;
     height: 100%;

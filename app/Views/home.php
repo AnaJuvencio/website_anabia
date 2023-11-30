@@ -44,7 +44,7 @@
             <div
               class="u-align-center u-container-style u-layout-cell u-left-cell u-size-29-lg u-size-29-md u-size-29-sm u-size-29-xs u-size-30-xl u-block-7c14-4">
               <div
-                class="u-container-layout u-valign-bottom-md u-valign-bottom-sm u-valign-bottom-xl u-valign-bottom-xs u-valign-top-lg u-block-7c14-5">
+                class="u-container-layout u-valign-bottom-md u-valign-bottom-sm u-valign-bottom-xl u-valign-top-lg u-block-7c14-5">
                 <img
                   class=" resized-image "
                   src="../public/images/anabeatriz1.png"
@@ -59,10 +59,10 @@
 
                 <div class="u-border-6 u-border-palette-1-base u-line u-line-horizontal u-block-7c14-16"
                   data-hover-preset-name="fadeIn" data-animation-name="customAnimationIn" data-animation-duration="1500"
-                  data-animation-delay="1000"></div>
+                  data-animation-delay="1000" style="color: #113D63"></div>
                 <h1 class="u-text u-block-7c14-14" data-hover-preset-name="" data-animation-name="flipIn"
-                  data-animation-duration="1500" data-animation-direction="X" data-animation-delay="750">Mobile
-                  Development</h1>
+                  data-animation-duration="1500" data-animation-direction="X" data-animation-delay="750">
+                  Ana Beatriz Juvencio</h1>
                 <p class="u-text u-text-black u-block-7c14-11">Image by <a href="https://www.freepik.com/psd/technology"
                     class="u-border-1 u-border-grey-75 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-link u-button-style u-none u-text-body-color u-block-7c14-12"
                     target="_blank">Freepik</a></p><a href="mailto:hi@freedesigner.com"
@@ -202,6 +202,7 @@
         }
 
         .u-block-7c14-20 {
+          background-color: #113D63;
           background-image: none;
           letter-spacing: 2px;
           text-shadow: 0 0 0 rgba(var(--black-r), var(--black-g), var(--black-b), 0);
@@ -217,6 +218,7 @@
           padding-right: 94px;
           padding-bottom: 15px;
           padding-left: 93px;
+          color: #fff;
         }
       }
     </style>
@@ -318,6 +320,7 @@
         }
 
         .u-block-7c14-20 {
+          background-color: #113D63;
           background-image: none;
           text-shadow: 0 0 0 rgba(var(--black-r), var(--black-g), var(--black-b), 0);
           letter-spacing: 2px;
@@ -333,6 +336,7 @@
           padding-right: 94px;
           padding-bottom: 15px;
           padding-left: 93px;
+          color: #fff;
         }
       }
     </style>
@@ -431,6 +435,7 @@
         }
 
         .u-block-7c14-20 {
+          background-color: #113D63;
           background-image: none;
           text-shadow: 0 0 0 rgba(var(--black-r), var(--black-g), var(--black-b), 0);
           letter-spacing: 2px;
@@ -446,6 +451,7 @@
           padding-right: 94px;
           padding-bottom: 15px;
           padding-left: 93px;
+          color: #fff;
         }
       }
     </style>
@@ -546,6 +552,7 @@
         }
 
         .u-block-7c14-20 {
+          background-color: #113D63;
           background-image: none;
           text-shadow: 0 0 0 rgba(var(--black-r), var(--black-g), var(--black-b), 0);
           letter-spacing: 2px;
@@ -561,6 +568,7 @@
           padding-right: 94px;
           padding-bottom: 15px;
           padding-left: 93px;
+          color: #fff;
         }
       }
     </style>
@@ -645,7 +653,7 @@
 
         .u-block-7c14-11 {
           font-style: italic;
-          margin-top: 23px;
+          margin-top: 1px;
           margin-right: 0;
           margin-bottom: 0;
           margin-left: 0;
@@ -661,13 +669,14 @@
         }
 
         .u-block-7c14-20 {
+          background-color: #113D63;
           background-image: none;
           text-shadow: 0 0 0 rgba(var(--black-r), var(--black-g), var(--black-b), 0);
           letter-spacing: 2px;
           font-size: 1.125rem;
           text-transform: uppercase;
           font-weight: 700;
-          border-style: none;
+          border-style: solid;
           margin-top: 33px;
           margin-right: auto;
           margin-bottom: 0;
@@ -676,6 +685,7 @@
           padding-right: 94px;
           padding-bottom: 15px;
           padding-left: 93px;
+          color: #fff;
         }
       }
     </style>
