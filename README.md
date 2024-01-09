@@ -1,2 +1,2 @@
 # website_anabia
-Portifólio criado do zero.
+Projeto criado utilizando o CodeIgniter 4 e templates HTML.
