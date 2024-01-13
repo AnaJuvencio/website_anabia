@@ -59,14 +59,13 @@
 
                 <div class="u-border-6 u-border-palette-1-base u-line u-line-horizontal u-block-7c14-16"
                   data-hover-preset-name="fadeIn" data-animation-name="customAnimationIn" data-animation-duration="1500"
-                  data-animation-delay="1000" style="color: #113D63"></div>
+                  data-animation-delay="1000" style="color: #512833"></div>
                 <h1 class="u-text u-block-7c14-14" data-hover-preset-name="" data-animation-name="flipIn"
                   data-animation-duration="1500" data-animation-direction="X" data-animation-delay="750">
                   Ana Beatriz Juvencio</h1>
-                <p class="u-text u-text-black u-block-7c14-11">Image by <a href="https://www.freepik.com/psd/technology"
-                    class="u-border-1 u-border-grey-75 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-link u-button-style u-none u-text-body-color u-block-7c14-12"
-                    target="_blank">Freepik</a></p><a href="mailto:hi@freedesigner.com"
-                  class="u-active-palette-1-base u-btn u-btn-round u-button-style u-hover-palette-1-base u-palette-3-base u-radius-8 u-text-active-white u-text-body-alt-color u-text-hover-white u-block-7c14-20">About
+                <p class="u-text u-text-black u-block-7c14-11" style="margin-left: 2px">As coisas mais importantes que eu já fiz, eu fiz com medo de fazê-las, mas eu fiz!</p>
+                    <a href="mailto:hi@freedesigner.com"style="color: #fff"
+                  class="u-active-palette-1-base u-btn u-btn-round u-button-style u-hover-palette-1-base= u-palette-3-base u-radius-8 u-text-active-white u-text-body-alt-colo u-block-7c14-20">About
                   Me</a>
               </div>
             </div>
@@ -202,7 +201,7 @@
         }
 
         .u-block-7c14-20 {
-          background-color: #113D63;
+          background-color: #512833;
           background-image: none;
           letter-spacing: 2px;
           text-shadow: 0 0 0 rgba(var(--black-r), var(--black-g), var(--black-b), 0);
@@ -320,7 +319,7 @@
         }
 
         .u-block-7c14-20 {
-          background-color: #113D63;
+          background-color: #512833;
           background-image: none;
           text-shadow: 0 0 0 rgba(var(--black-r), var(--black-g), var(--black-b), 0);
           letter-spacing: 2px;
@@ -435,7 +434,7 @@
         }
 
         .u-block-7c14-20 {
-          background-color: #113D63;
+          background-color: #512833;
           background-image: none;
           text-shadow: 0 0 0 rgba(var(--black-r), var(--black-g), var(--black-b), 0);
           letter-spacing: 2px;
@@ -552,7 +551,7 @@
         }
 
         .u-block-7c14-20 {
-          background-color: #113D63;
+          background-color: #512833;
           background-image: none;
           text-shadow: 0 0 0 rgba(var(--black-r), var(--black-g), var(--black-b), 0);
           letter-spacing: 2px;
@@ -669,7 +668,7 @@
         }
 
         .u-block-7c14-20 {
-          background-color: #113D63;
+          background-color: #512833;
           background-image: none;
           text-shadow: 0 0 0 rgba(var(--black-r), var(--black-g), var(--black-b), 0);
           letter-spacing: 2px;
@@ -678,11 +677,11 @@
           font-weight: 700;
           border-style: solid;
           margin-top: 33px;
-          margin-right: auto;
+          margin-right: 2%;
           margin-bottom: 0;
           margin-left: 0;
           padding-top: 15px;
-          padding-right: 94px;
+          padding-right: 93px;
           padding-bottom: 15px;
           padding-left: 93px;
           color: #fff;
@@ -691,8 +690,8 @@
     </style>
   </section>
   <section class="u-clearfix u-palette-1-base u-block-3d6e-1" custom-posts-hash="[]" data-style="blank"
-    data-section-properties="{&quot;margin&quot;:&quot;none&quot;,&quot;stretch&quot;:true}" id="sec-2842"
-    data-source="Blank" data-id="3d6e">
+   style="margin-top: 0px; margin-left: 0%; margin-right: 10%; margin-bottom: 10px;" id="sec-2842"
+    data-source="Blank" data-id="3d6e" >
     <div class="u-expanded-width u-palette-2-base u-shape u-shape-rectangle u-block-3d6e-21"></div>
     <div class="u-list u-block-3d6e-3">
       <div class="u-repeater u-block-3d6e-4">
@@ -704,7 +703,7 @@
             <span class="u-icon u-icon-circle u-palette-2-light-2 u-text-palette-3-base u-block-3d6e-7"
               data-hover-preset-name="" data-animation-name="flipIn" data-animation-duration="1500"
               data-animation-direction="X" data-animation-delay="500"><svg class="u-svg-link"
-                preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
+                preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="color: #fff">
                 <use xlink:href="#svg-f0bc"></use>
               </svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
                 xml:space="preserve" class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-f0bc"
@@ -738,7 +737,7 @@
                   </g>
                 </g>
               </svg></span>
-            <h4 class="u-align-center u-text u-text-default u-text-palette-3-base u-block-3d6e-8">strategy</h4>
+            <h4 class="u-align-center u-text u-text-default u-text-palette-3-base u-block-3d6e-8" style=" color: #fff">strategy</h4>
 
           </div>
         </div>
@@ -750,7 +749,7 @@
             <span class="u-icon u-icon-circle u-palette-2-light-2 u-text-palette-3-base u-block-3d6e-11"
               data-hover-preset-name="" data-animation-name="flipIn" data-animation-duration="1500"
               data-animation-direction="X" data-animation-delay="500"><svg class="u-svg-link"
-                preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
+                preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=" color: #fff">
                 <use xlink:href="#svg-177e"></use>
               </svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
                 xml:space="preserve" class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-177e"
@@ -770,7 +769,7 @@
                   </g>
                 </g>
               </svg></span>
-            <h4 class="u-text u-text-default u-text-palette-3-base u-block-3d6e-12">ux Design</h4>
+            <h4 class="u-text u-text-default u-text-palette-3-base u-block-3d6e-12" style=" color: #fff">ux Design</h4>
 
           </div>
         </div>
@@ -782,7 +781,7 @@
             <span class="u-icon u-icon-circle u-palette-2-light-2 u-text-palette-3-base u-block-3d6e-15"
               data-hover-preset-name="" data-animation-name="flipIn" data-animation-duration="1500"
               data-animation-direction="X" data-animation-delay="500"><svg class="u-svg-link"
-                preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
+                preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="color: #fff">
                 <use xlink:href="#svg-64e0"></use>
               </svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
                 xml:space="preserve" class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-64e0"
@@ -816,7 +815,7 @@
                   </g>
                 </g>
               </svg></span>
-            <h4 class="u-text u-text-default u-text-palette-3-base u-block-3d6e-16">development</h4>
+            <h4 class="u-text u-text-default u-text-palette-3-base u-block-3d6e-16" style=" color: #fff">development</h4>
 
           </div>
         </div>
@@ -828,10 +827,10 @@
             <span class="u-icon u-icon-circle u-palette-2-light-2 u-text-palette-3-base u-block-3d6e-19"
               data-hover-preset-name="" data-animation-name="flipIn" data-animation-duration="1500"
               data-animation-direction="X" data-animation-delay="500"><svg class="u-svg-link"
-                preserveAspectRatio="xMidYMin slice" viewBox="0 0 24 24" style="">
+                preserveAspectRatio="xMidYMin slice" viewBox="0 0 24 24" style="color: #fff">
                 <use xlink:href="#svg-c87d"></use>
-              </svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
-                xml:space="preserve" class="u-svg-content" viewBox="0 0 24 24" id="svg-c87d" data-color="#000000">
+              </svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" style="color: #fff"
+                xml:space="preserve" class="u-svg-content" viewBox="0 0 24 24" id="svg-c87d" data-color="#fff">
                 <path
                   d="m22.25 20h-20.5c-.965 0-1.75-.785-1.75-1.75v-12.5c0-.965.785-1.75 1.75-1.75h1.68c.414 0 .75.336.75.75s-.336.75-.75.75h-1.68c-.136 0-.25.114-.25.25v12.5c0 .136.114.25.25.25h20.5c.136 0 .25-.114.25-.25v-12.5c0-.136-.114-.25-.25-.25h-1.68c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h1.68c.965 0 1.75.785 1.75 1.75v12.5c0 .965-.785 1.75-1.75 1.75z">
                 </path>
@@ -869,7 +868,7 @@
                   d="m12 13c-.414 0-.75-.336-.75-.75v-8.5c0-.414.336-.75.75-.75s.75.336.75.75v8.5c0 .414-.336.75-.75.75z">
                 </path>
               </svg></span>
-            <h4 class="u-text u-text-default u-text-palette-3-base u-block-3d6e-20">testing</h4>
+            <h4 class="u-text u-text-default u-text-palette-3-base u-block-3d6e-20" style=" color: #fff">testing</h4>
 
           </div>
         </div>
@@ -911,6 +910,11 @@
           --animation-custom_in-opacity: 0;
           --animation-custom_in-rotate: 0deg;
           --animation-custom_in-scale: 1;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 10px;
+          border-color: #512833;
+          background-color: #512833 ;
         }
 
         .u-block-3d6e-6 {
@@ -953,6 +957,11 @@
           --animation-custom_in-opacity: 0;
           --animation-custom_in-rotate: 0deg;
           --animation-custom_in-scale: 1;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 10px;
+          border-color: #512833;
+          background-color: #512833 ;
         }
 
         .u-block-3d6e-10 {
@@ -995,6 +1004,11 @@
           --animation-custom_in-opacity: 0;
           --animation-custom_in-rotate: 0deg;
           --animation-custom_in-scale: 1;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 10px;
+          border-color: #512833;
+          background-color: #512833 ;
         }
 
         .u-block-3d6e-14 {
@@ -1037,6 +1051,11 @@
           --animation-custom_in-opacity: 0;
           --animation-custom_in-rotate: 0deg;
           --animation-custom_in-scale: 1;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 10px;
+          border-color: #512833;
+          background-color: #512833 ;
         }
 
         .u-block-3d6e-18 {
@@ -1081,7 +1100,7 @@
 
         .u-block-3d6e-21 {
           height: 122px;
-          margin-top: -17px;
+          margin-top: 17px;
           margin-bottom: 0;
         }
 
@@ -1108,6 +1127,11 @@
           --animation-custom_in-opacity: 0;
           --animation-custom_in-rotate: 0deg;
           --animation-custom_in-scale: 1;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 10px;
+          border-color: #512833;
+          background-color: #512833 ;
         }
 
         .u-block-3d6e-6 {
@@ -1150,6 +1174,11 @@
           --animation-custom_in-opacity: 0;
           --animation-custom_in-rotate: 0deg;
           --animation-custom_in-scale: 1;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 10px;
+          border-color: #512833;
+          background-color: #512833 ;
         }
 
         .u-block-3d6e-10 {
@@ -1192,6 +1221,11 @@
           --animation-custom_in-opacity: 0;
           --animation-custom_in-rotate: 0deg;
           --animation-custom_in-scale: 1;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 10px;
+          border-color: #512833;
+          background-color: #512833 ;
         }
 
         .u-block-3d6e-14 {
@@ -1234,6 +1268,11 @@
           --animation-custom_in-opacity: 0;
           --animation-custom_in-rotate: 0deg;
           --animation-custom_in-scale: 1;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 10px;
+          border-color: #512833;
+          background-color: #512833 ;
         }
 
         .u-block-3d6e-18 {
@@ -1278,7 +1317,7 @@
 
         .u-block-3d6e-21 {
           height: 281px;
-          margin-top: 0;
+          margin-top: 50px;
           margin-bottom: 0;
         }
 
@@ -1305,6 +1344,11 @@
           --animation-custom_in-opacity: 0;
           --animation-custom_in-rotate: 0deg;
           --animation-custom_in-scale: 1;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 10px;
+          border-color: #512833;
+          background-color: #512833 ;
         }
 
         .u-block-3d6e-6 {
@@ -1347,6 +1391,11 @@
           --animation-custom_in-opacity: 0;
           --animation-custom_in-rotate: 0deg;
           --animation-custom_in-scale: 1;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 10px;
+          border-color: #512833;
+          background-color: #512833 ;
         }
 
         .u-block-3d6e-10 {
@@ -1389,6 +1438,11 @@
           --animation-custom_in-opacity: 0;
           --animation-custom_in-rotate: 0deg;
           --animation-custom_in-scale: 1;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 10px;
+          border-color: #512833;
+          background-color: #512833 ;
         }
 
         .u-block-3d6e-14 {
@@ -1431,6 +1485,11 @@
           --animation-custom_in-opacity: 0;
           --animation-custom_in-rotate: 0deg;
           --animation-custom_in-scale: 1;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 10px;
+          border-color: #512833;
+          background-color: #512833 ;
         }
 
         .u-block-3d6e-18 {
@@ -1476,7 +1535,7 @@
         .u-block-3d6e-21 {
           height: 333px;
           margin-top: -1px;
-          margin-bottom: 0;
+          margin-bottom: 50px;
         }
 
         .u-block-3d6e-3 {
@@ -1502,6 +1561,11 @@
           --animation-custom_in-opacity: 0;
           --animation-custom_in-rotate: 0deg;
           --animation-custom_in-scale: 1;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 10px;
+          border-color: #512833;
+          background-color: #512833 ;
         }
 
         .u-block-3d6e-6 {
@@ -1544,6 +1608,11 @@
           --animation-custom_in-opacity: 0;
           --animation-custom_in-rotate: 0deg;
           --animation-custom_in-scale: 1;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 10px;
+          border-color: #512833;
+          background-color: #512833 ;
         }
 
         .u-block-3d6e-10 {
@@ -1586,6 +1655,11 @@
           --animation-custom_in-opacity: 0;
           --animation-custom_in-rotate: 0deg;
           --animation-custom_in-scale: 1;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 10px;
+          border-color: #512833;
+          background-color: #512833 ;
         }
 
         .u-block-3d6e-14 {
@@ -1628,6 +1702,11 @@
           --animation-custom_in-opacity: 0;
           --animation-custom_in-rotate: 0deg;
           --animation-custom_in-scale: 1;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 10px;
+          border-color: #512833;
+          background-color: #512833 ;
         }
 
         .u-block-3d6e-18 {
@@ -1672,7 +1751,7 @@
 
         .u-block-3d6e-21 {
           height: 502px;
-          margin-top: 0;
+          margin-top: 50px;
           margin-bottom: 0;
         }
 
@@ -1699,6 +1778,11 @@
           --animation-custom_in-opacity: 0;
           --animation-custom_in-rotate: 0deg;
           --animation-custom_in-scale: 1;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 10px;
+          border-color: #512833;
+          background-color: #512833 ;
         }
 
         .u-block-3d6e-6 {
@@ -1741,6 +1825,11 @@
           --animation-custom_in-opacity: 0;
           --animation-custom_in-rotate: 0deg;
           --animation-custom_in-scale: 1;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 10px;
+          border-color: #512833;
+          background-color: #512833 ;
         }
 
         .u-block-3d6e-10 {
@@ -1783,6 +1872,11 @@
           --animation-custom_in-opacity: 0;
           --animation-custom_in-rotate: 0deg;
           --animation-custom_in-scale: 1;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 10px;
+          border-color: #512833;
+          background-color: #512833 ;
         }
 
         .u-block-3d6e-14 {
@@ -1825,6 +1919,11 @@
           --animation-custom_in-opacity: 0;
           --animation-custom_in-rotate: 0deg;
           --animation-custom_in-scale: 1;
+          border-style: solid;
+          border-width: 2px;
+          border-radius: 10px;
+          border-color: #512833;
+          background-color: #512833 ;
         }
 
         .u-block-3d6e-18 {

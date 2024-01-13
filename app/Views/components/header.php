@@ -1,31 +1,31 @@
-  <!-- Cabeçalho (header) -->
-  <header class="header">
+<!-- Cabeçalho (header) -->
+<header class="header">
 
-    <div class="content">
+  <div class="content">
 
-      <a href="#" target="_blank" class="logo"><img src="img/logo.png" title="Loop Nerd"></a>
+    <a href="#" target="_blank" class="logo"><img src="images/logo4.png" title=""></a>
 
-      <input class="mobile-btn" type="checkbox" id="mobile-btn" />
-      <label class="mobile-icon" for="mobile-btn"><span class="hamburguer"></span></label>
+    <input class="mobile-btn" type="checkbox" id="mobile-btn" />
+    <label class="mobile-icon" for="mobile-btn"><span class="hamburguer"></span></label>
 
-      <ul class="nav">
+    <ul class="nav">
 
-        <li><a href="#" title="Home">Home</a></li>
-        <li><a href="#" title="Sobre">Sobre</a></li>
-        <li><a href="#" title="Artigos">Artigos</a></li>
-        <li><a href="#" title="Contato">Contato</a></li>
+      <li><a href="#" title="Home">Home</a></li>
+      <li><a href="#" title="Sobre">Sobre</a></li>
+      <li><a href="#" title="Artigos">Artigos</a></li>
+      <li><a href="#" title="Contato">Contato</a></li>
 
-      </ul>
+    </ul>
 
-    </div><!--content-->
+  </div><!--content-->
 
-  </header>
+</header>
 
 
 <style>
   .header {
 
-    background-color: #113D63;
+    background-color: #512833;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
     position: fixed;
     top: 0;
@@ -33,7 +33,7 @@
     width: 100%;
     z-index: 1;
     float: left;
-    height: 80px;
+    height: 90px;
   }
 
   .header ul {
@@ -42,7 +42,7 @@
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #113D63;
+    background-color: #512833;
 
   }
 
@@ -54,23 +54,17 @@
     transition: .3s;
     border-bottom: 1px #f7f7f7 solid;
     color: #fff;
-
   }
 
   .header li a:hover,
   .header .btn-mobile:hover {
 
-    background-color: #BCCBD8;
+   /* background: rgba(0, 0, 0, .1);*/
+    background-color: #6f404c;
     color: #fff;
 
   }
 
-  .header .logo {
-
-    display: block;
-    float: left;
-
-  }
 
 
   .header .nav {
@@ -85,7 +79,7 @@
     cursor: pointer;
     display: inline-block;
     float: right;
-    padding: 28px 20px;
+    padding: 40px 32px;
     position: relative;
     user-select: none;
   }
@@ -111,11 +105,11 @@
   }
 
   .header .mobile-icon .hamburguer:before {
-    top: 5px;
+    top: 7px;
   }
 
   .header .mobile-icon .hamburguer:after {
-    top: -5px;
+    top: -7px;
   }
 
   /* menu btn */
@@ -165,6 +159,11 @@
   /* 48em = 768px */
 
   @media (min-width: 48em) {
+    .header .logo {
+      display: block;
+      float: left;
+      padding: 10px;
+    }
 
     .header li {
       float: left;
@@ -173,7 +172,7 @@
     .header li a {
 
       padding: 15px 30px;
-      margin-top: 10px;
+      margin-top: 15px;
       border-radius: 6px;
 
     }
@@ -195,5 +194,20 @@
 
     }
 
+    a.logo img {
+      width: 60%;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 48em) {
+    .header .logo {
+      margin-bottom: 10px; /*arrumar*/
+    }
+    a.logo img {
+      width: 40%;
+      height: auto;
+      padding-top: 15px;
+    }
   }
 </style>
