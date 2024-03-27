@@ -3,7 +3,7 @@
 
   <div class="content">
 
-    <a href="#" target="_blank" class="logo"><img src="images/logo4.png" title=""></a>
+    <a href="#" target="_blank" class="logo"><img src="../../public/images/logo4.png" title=""></a>
 
     <input class="mobile-btn" type="checkbox" id="mobile-btn" />
     <label class="mobile-icon" for="mobile-btn"><span class="hamburguer"></span></label>
