@@ -45,13 +45,11 @@
         <div class='row'>
             <div class="col">
                 <h1>Hi Guys!</h1>
-                <h2>
-                    Eu sou a Ana Beatriz Juvencio, atualmente curso Cência da Computação na UFSCar. 
-                </h2>
+                <p>Eu <span></span></p>
             </div>
             <div class="col">
                 <center>
-                <div class="quadrado">
+                <div class="circle">
                 <img class="me-img" src="../../public/images/anabeatriz1.png">
                 </div>
                 </center>
@@ -61,6 +59,7 @@
 </body>
 
 <style>
+    /*primeiro container*/
     .imginicial{
        width: 100%;
        padding-right: 20px;
@@ -93,15 +92,15 @@
     /*segundo container*/
     .container-two{
         background-color: #161616;
-        padding: 10% 0 20% 0;
+        padding: 10% 0 10% 0;
         position: relative;
     }
     .me-img{
        /*z-index: 1; Coloca a imagem na frente do losango */
         position: absolute;
         top: 65%; 
-        left: 50%; 
-        transform: translate(-50%, -50%) rotate(-45deg); /* Gira a imagem de volta */
+        left: 45%; 
+        transform: translate(-50%, -50%); /* Gira a imagem de volta */
         width: 80%; 
         height: auto; /* Mantém a proporção */
     }
@@ -115,17 +114,67 @@
         padding: 3% 10% 0 10%;
         text-align: justify;
     }
-    .quadrado {
+    /*.quadrado {
         width: 300px;
         height: 300px;
         background-color: #512833;
         margin-top: 4%;
         position: absolute;
         margin-left: 10%;
-        transform: rotate(45deg); /* Rotaciona o quadrado em 45 graus */
+        transform: rotate(45deg); /* Rotaciona o quadrado em 45 graus 
         position: relative;
         overflow: hidden;
         margin-right: 15%;
+    }*/
+    .circle {
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        border-radius: 50%; /* Define a forma do círculo */
+        position: relative;
+        overflow: hidden;
+        background-color: #512833;
+    }
+    .container-two span{
+        position: relative;
+    }
+    .container-two span::before{
+        content: "";
+        color: #fff;
+        margin: 0% 0% 0% 0%;
+        animation: palavrashome 20s infinite;
+    }
+    .container-two p{
+        color: #fff;
+        margin: 0% 0% 0% 10%;
+    }
+    .container-two span::after{
+        content: "";
+        position: absolute;
+        height: 110%;
+        border-left: 3px solid #512833;
+        right: -10px;
+        animation: cursor .8s infinite, digita 20s steps(15) infinite;
+        width: calc(100% + 15px);
+        background-color: #161616;
+    }
+    @keyframes cursor {/*criar o cursor e fazer ele piscar*/
+        0%{
+            border-left: 2px solid #161616;
+        }
+    }
+    @keyframes palavrashome { /*animação para aparecer as palavras*/
+        0%, 100%{
+            content: "sou a Ana Beatriz Juvencio, sou discente em Ciência da Computação na UFSCar.";
+        }
+    }
+    @keyframes digita { /*animação para digitar*/
+        10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{ 
+            width: 0;
+        }
+        5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
+            width: calc(100% + 15px);
+        }
     }
 </style>
 </html>
