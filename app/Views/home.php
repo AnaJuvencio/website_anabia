@@ -134,6 +134,10 @@
         position: relative;
         overflow: hidden;
         background-color: #512833;
+        border-color: #fff;
+        border-width: 0px;
+        border-style: solid;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Sombra na borda (branca) */
     }
     .container-two span{
         position: relative;
@@ -148,7 +152,17 @@
         color: #fff;
         margin: 0% 0% 0% 10%;
     }
-    .container-two span::after{
+    /*.container-two span::after{
+        content: "";
+        position: absolute;
+        height: 110%;
+        border-left: 3px solid #512833;
+        right: -10px;
+       /* animation: cursor .8s infinite, digita 20s steps(15) infinite;
+        width: calc(100% + 15px);
+        background-color: #161616;
+    }*/
+    .container-two.animated span::after {
         content: "";
         position: absolute;
         height: 110%;
@@ -172,9 +186,27 @@
         10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{ 
             width: 0;
         }
-        5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
+        /*5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
             width: calc(100% + 15px);
-        }
+        } /*aqui ele volta e apagar, mas eu não quero que apague*/ 
     }
 </style>
+<script>
+    window.addEventListener('scroll', function() { /*script para acionar a animação do cursor e do digita quando rola a página*/
+         /* console.log('Evento de rolagem acionado!'); /*abra o console do navegador*/ 
+        var elemento = document.querySelector('.container-two');
+        var distanciaDoTopo = elemento.getBoundingClientRect().top;
+        var alturaDaTela = window.innerHeight;
+
+        // Se o topo do elemento estiver visível na tela
+        if (distanciaDoTopo - alturaDaTela < 0) {
+            iniciarAnimacao();
+        }
+    });
+
+    function iniciarAnimacao() {
+        var elemento = document.querySelector('.container-two');
+        elemento.classList.add('animated');
+    }
+</script>
 </html>
