@@ -18,8 +18,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
-        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <?php include("components/header.php"); ?>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <?php include ("components/header.php"); ?>
 </head>
 
 <body>
@@ -36,22 +36,22 @@
             </div>
             <div class="col">
                 <center>
-            <img class="imginicial" src="../../public/images/computer.png" >
-            </center>
+                    <img class="imginicial" src="../../public/images/computer.png">
+                </center>
             </div>
         </div>
     </div>
     <div class='conatiner-xxl container-two'>
         <div class='row'>
             <div class="col">
-                <h1>Hi Guys!</h1>
-                <p>Eu <span></span></p>
+                <h1><span></span></h1>
+                <p class="segunda-frase"></p>
             </div>
             <div class="col">
                 <center>
-                <div class="circle">
-                <img class="me-img" src="../../public/images/anabeatriz1.png">
-                </div>
+                    <div class="circle">
+                        <img class="me-img" src="../../public/images/anabeatriz1.png">
+                    </div>
                 </center>
             </div>
         </div>
@@ -60,60 +60,70 @@
 
 <style>
     /*primeiro container*/
-    .imginicial{
-       width: 100%;
-       padding-right: 20px;
-       padding-bottom: 70px;
+    .imginicial {
+        width: 100%;
+        padding-right: 20px;
+        padding-bottom: 70px;
     }
-    .container-ini{
+
+    .container-ini {
         padding-top: 90px;
-        background: rgb(81,40,51);
-        background: linear-gradient(180deg, rgba(81,40,51,1) 57%, rgba(22,22,22,1) 100%);
+        background: rgb(81, 40, 51);
+        background: linear-gradient(180deg, rgba(81, 40, 51, 1) 57%, rgba(22, 22, 22, 1) 100%);
     }
-   
-    .container-ini h1{
+
+    .container-ini h1 {
         color: #fff;
         text-transform: uppercase;
         font-family: poppins;
     }
-    .quadro-1-text{
+
+    .quadro-1-text {
         /*padding-top: 20%;*/
         font-size: 70px;
         text-align: center;
     }
-    .title-cod{
+
+    .title-cod {
         padding-top: 20%;
         padding-left: 18%;
     }
-    .title-cod2{
+
+    .title-cod2 {
         padding-left: 75%;
     }
 
     /*segundo container*/
-    .container-two{
+    .container-two {
         background-color: #161616;
         padding: 10% 0 10% 0;
         position: relative;
     }
-    .me-img{
-       /*z-index: 1; Coloca a imagem na frente do losango */
+
+    .me-img {
+        /*z-index: 1; Coloca a imagem na frente do losango */
         position: absolute;
-        top: 65%; 
-        left: 45%; 
-        transform: translate(-50%, -50%); /* Gira a imagem de volta */
-        width: 80%; 
-        height: auto; /* Mantém a proporção */
+        top: 65%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        /* Gira a imagem de volta */
+        width: 80%;
+        height: auto;
+        /* Mantém a proporção */
     }
-    .container-two h1{
+
+    .container-two h1 {
         text-align: center;
         color: #fff;
         padding-top: 10%;
     }
-    .container-two h2{
+
+    .container-two h2 {
         color: #fff;
         padding: 3% 10% 0 10%;
         text-align: justify;
     }
+
     /*.quadrado {
         width: 300px;
         height: 300px;
@@ -130,28 +140,34 @@
         width: 300px;
         height: 300px;
         background-color: red;
-        border-radius: 50%; /* Define a forma do círculo */
+        border-radius: 50%;
+        /* Define a forma do círculo */
         position: relative;
         overflow: hidden;
         background-color: #512833;
         border-color: #fff;
         border-width: 0px;
         border-style: solid;
-        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Sombra na borda (branca) */
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        /* Sombra na borda (branca) */
     }
-    .container-two span{
+
+    .container-two span {
         position: relative;
     }
-    .container-two span::before{
+
+    .container-two span::before {
         content: "";
         color: #fff;
         margin: 0% 0% 0% 0%;
         animation: palavrashome 20s infinite;
     }
-    .container-two p{
+
+    .container-two p {
         color: #fff;
         margin: 0% 0% 0% 10%;
     }
+
     /*.container-two span::after{
         content: "";
         position: absolute;
@@ -166,41 +182,67 @@
         content: "";
         position: absolute;
         height: 110%;
-        border-left: 3px solid #512833;
+        /*border-left: 3px solid #512833;*/
         right: -10px;
-        animation: cursor .8s infinite, digita 20s steps(15) infinite;
+        animation: digita 20s steps(15) infinite; /*cursor .8s infinite*/
         width: calc(100% + 15px);
         background-color: #161616;
     }
-    @keyframes cursor {/*criar o cursor e fazer ele piscar*/
+
+    /*@keyframes cursor {
+        /*cria o cursor e faz ele piscar
         0%{
             border-left: 2px solid #161616;
         }
-    }
-    @keyframes palavrashome { /*animação para aparecer as palavras*/
-        0%, 100%{
-            content: "sou a Ana Beatriz Juvencio, sou discente em Ciência da Computação na UFSCar.";
+    }*/
+
+    @keyframes palavrashome {
+
+        /*animação para aparecer as palavras*/
+        0%,
+        100% {
+            content: "Hi, Guys!";
         }
     }
-    @keyframes digita { /*animação para digitar*/
-        10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{ 
+
+    @keyframes digita {
+
+        /*animação para digitar*/
+        10%,
+        15%,
+        30%,
+        35%,
+        50%,
+        55%,
+        70%,
+        75%,
+        90%,
+        95% {
             width: 0;
         }
+
         /*5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
             width: calc(100% + 15px);
-        } /*aqui ele volta e apagar, mas eu não quero que apague*/ 
+        } /*aqui ele volta e apagar, mas eu não quero que apague*/
     }
 </style>
 <script>
-    window.addEventListener('scroll', function() { /*script para acionar a animação do cursor e do digita quando rola a página*/
-         /* console.log('Evento de rolagem acionado!'); /*abra o console do navegador*/ 
+    var animacaoIniciada = false; // Flag para verificar se a animação já foi iniciada
+
+    window.addEventListener('scroll', function () { /*script para acionar a animação do cursor e do digita quando rola a página*/
+        /* console.log('Evento de rolagem acionado!'); /*abra o console do navegador*/
         var elemento = document.querySelector('.container-two');
         var distanciaDoTopo = elemento.getBoundingClientRect().top;
         var alturaDaTela = window.innerHeight;
 
-        // Se o topo do elemento estiver visível na tela
-        if (distanciaDoTopo - alturaDaTela < 0) {
+        // Se o topo do elemento estiver visível na tela e a animação ainda não foi iniciada
+        if (distanciaDoTopo - alturaDaTela < 0 && !animacaoIniciada) {
             iniciarAnimacao();
+            animacaoIniciada = true; // Define a flag como true para indicar que a animação foi iniciada
+            var segundaFrase = document.querySelector('.segunda-frase');
+            setTimeout(function() {
+                digitarTexto(segundaFrase, "Esta é a segunda frase que será digitada.", 50);
+            }, 2000); /*add uma espera para começar*/
         }
     });
 
@@ -208,5 +250,19 @@
         var elemento = document.querySelector('.container-two');
         elemento.classList.add('animated');
     }
+
+    function digitarTexto(elemento, texto, velocidade) {
+        var i = 0;
+        var interval = setInterval(function () {
+            if (i < texto.length) {
+                elemento.textContent += texto.charAt(i);
+                i++;
+            } else {
+                clearInterval(interval);
+            }
+        }, velocidade);
+    }
 </script>
+
+
 </html>
