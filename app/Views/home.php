@@ -46,6 +46,10 @@
             <div class="col">
                 <h1><span></span></h1>
                 <p class="segunda-frase"></p>
+                <a href="link" onclick="adicionarEstilo()" title="Conheça"
+                    class="myButton" style="padding: 20px 50px; font-size: 14px; height: auto; text-decoration: none;">
+                    <div class="font" style="font-weight: bold; font-family: poppins; text-transform: uppercase;">Sobre mim</div>
+                </a>
             </div>
             <div class="col">
                 <center>
@@ -184,7 +188,8 @@
         height: 110%;
         /*border-left: 3px solid #512833;*/
         right: -10px;
-        animation: digita 20s steps(15) infinite; /*cursor .8s infinite*/
+        animation: digita 20s steps(15) infinite;
+        /*cursor .8s infinite*/
         width: calc(100% + 15px);
         background-color: #161616;
     }
@@ -225,8 +230,72 @@
             width: calc(100% + 15px);
         } /*aqui ele volta e apagar, mas eu não quero que apague*/
     }
+
+    @media screen and (max-width: 768px) {
+        .myButton {
+            /*background-image: linear-gradient(180deg, rgba(81, 40, 51, 1) 57%, rgba(22, 22, 22, 1) 100%);*/
+            background-color: #512833;
+            -moz-border-radius: 42px;
+            -webkit-border-radius: 42px;
+            border-radius: 42px;
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            color: #fff;
+            /* Define a cor do texto como branco */
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .myButton {
+            /*background-image: linear-gradient(180deg, rgba(81, 40, 51, 1) 57%, rgba(22, 22, 22, 1) 100%);*/
+            background-color: #512833;
+            -moz-border-radius: 42px;
+            -webkit-border-radius: 42px;
+            border-radius: 42px;
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+            color: #fff;
+            /* Define a cor do texto como branco */
+        }
+    }
+
+
+    .myButton:hover::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: 42px;
+        padding: 4px;
+        background: linear-gradient(180deg, rgba(81, 40, 51, 1) 57%, rgba(22, 22, 22, 1) 100%);
+        -webkit-mask:
+            linear-gradient(#fff 0 0) content-box,
+            linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+    }
+
+    .myButton:hover {
+        background: #161616;
+    }
+
+    .font {
+        color: #fff;
+    }
+
+    .myButton:hover .font {
+        color: transparent;
+        background-image: linear-gradient(180deg, rgba(81, 40, 51, 1) 57%, rgba(22, 22, 22, 1) 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
 </style>
 <script>
+    function adicionarEstilo() {
+        var button = document.querySelector('.myButton');
+        button.classList.add('clicked');
+    }
     var animacaoIniciada = false; // Flag para verificar se a animação já foi iniciada
 
     window.addEventListener('scroll', function () { /*script para acionar a animação do cursor e do digita quando rola a página*/
@@ -240,8 +309,8 @@
             iniciarAnimacao();
             animacaoIniciada = true; // Define a flag como true para indicar que a animação foi iniciada
             var segundaFrase = document.querySelector('.segunda-frase');
-            setTimeout(function() {
-                digitarTexto(segundaFrase, "Esta é a segunda frase que será digitada.", 50);
+            setTimeout(function () {
+                digitarTexto(segundaFrase, "Meu nome é Ana Beatriz Juvencio, sou técnica em Desenvolvimento de Sistemas e discente em Ciência da Computação na Universidade Federal de São Carlos. Hoje, estou iniciando a minha carreira com muita humildade para aprender e com foco em engenharia de software.", 50);
             }, 2000); /*add uma espera para começar*/
         }
     });

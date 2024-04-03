@@ -7,4 +7,7 @@ Link para download: https://codeigniter.com.br/download/
 
 ## O que é Bootstrap?
 Bootstrap é um framework de front-end de código aberto, ele fornece um conjunto de ferramentas, estilos e componentes pré-projetados que ajudam os desenvolvedores a criar interfaces de usuário responsivas e visualmente atraentes de forma rápida e eficiente.
-Documentação: https://getbootstrap.com/docs/5.0/getting-started/introduction/
+Documentação:
+
+## Animações
+Efeito de digitar utilizando css e um script.
