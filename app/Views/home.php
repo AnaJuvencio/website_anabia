@@ -48,9 +48,10 @@
                 <div class="frase-cont2" style="height: 150px; overflow: hidden;">
                     <p class="segunda-frase" style="text-align: justify"></p>
                 </div>
-                <a href="link" onclick="adicionarEstilo()" title="Conheça"
-                    class="myButton" style="padding: 20px 50px; font-size: 14px; height: auto; text-decoration: none;">
-                    <div class="font" style="font-weight: bold; font-family: poppins; text-transform: uppercase;">Sobre mim</div>
+                <a href="link" onclick="adicionarEstilo()" title="Conheça" class="myButton"
+                    style="padding: 20px 50px; font-size: 14px; height: auto; text-decoration: none;">
+                    <div class="font" style="font-weight: bold; font-family: poppins; text-transform: uppercase;">Sobre
+                        mim</div>
                 </a>
             </div>
             <div class="col">
@@ -66,8 +67,16 @@
         <h1>Habilidades</h1>
         <hr>
         <br>
-        <div class="circle-tree">
-            <img src='../../public/images/html.png'>
+        <div class='div-hab'>
+            <div class="circle-tree circle-tree-html">
+                <img src='../../public/images/html.png' class="html">
+            </div>
+            <div class="circle-tree circle-tree-css">
+                <img src='../../public/images/css.png' class="css">
+            </div>
+            <div class="circle-tree circle-tree-js">
+                <img src='../../public/images/js.png' class="js">
+            </div>
         </div>
     </div>
 </body>
@@ -129,7 +138,8 @@
     .container-two h1 {
         text-align: center;
         color: #fff;
-        padding-top: 8%;
+        padding-top: 2%;
+        padding-bottom: 5%;
         margin-left: 30%;
     }
 
@@ -252,7 +262,8 @@
             display: inline-block;
             cursor: pointer;
             position: absolute;
-            color: #fff;/* Define a cor do texto como branco */
+            color: #fff;
+            /* Define a cor do texto como branco */
         }
     }
 
@@ -266,7 +277,8 @@
             display: inline-block;
             cursor: pointer;
             position: absolute;
-            color: #fff;  /* Define a cor do texto como branco */
+            color: #fff;
+            /* Define a cor do texto como branco */
             margin-left: 50%;
         }
     }
@@ -302,14 +314,16 @@
         -webkit-background-clip: text;
     }
 
-    .frase-cont2{
+    .frase-cont2 {
         margin-left: 20%;
     }
+
     /*terceiro container*/
-    .container-tree{
+    .container-tree {
         background-color: #161616;
     }
-    .container-tree h1{
+
+    .container-tree h1 {
         color: #fff;
         text-align: center;
         text-transform: uppercase;
@@ -317,7 +331,8 @@
         padding: 0px;
         margin: 0px;
     }
-    .container-tree hr{
+
+    .container-tree hr {
         border-color: #512833;
         border-width: 1px;
         height: 2px;
@@ -326,27 +341,86 @@
         position: relative;
         left: 45%;
     }
-    .container-tree img{
+
+    .container-tree img {
+        position: absolute;
+        z-index: 2;
+    }
+    .div-hab{
+        display: flex;
+    }
+    .html {
         width: 70%;
         height: auto;
-        position: absolute;
         left: 24px;
         top: 20px;
     }
+
+    .css {
+        width: 50%;
+        height: auto;
+        left: 38px;
+        top: 15px;
+    }
+    .js{
+        width: 67%;
+        height: auto;
+        left: 26px;
+        top: 30px;
+    }
+    .circle-tree-css {
+        margin-left: 5%;
+    }
+
+    .circle-tree-html {
+        margin-left: 15%;
+    }
+    .circle-tree-js {
+        margin-left: 5%;
+    }
+
     .circle-tree {
         width: 150px;
+        /*tamanho do cículo*/
         height: 150px;
-        background-color: red;
         border-radius: 50%;
         /* Define a forma do círculo */
         position: relative;
-        overflow: hidden;
         background-color: #1c1c1c;
-        border-color: #fff;
-        border-width: 0px;
-        border-style: solid;
-        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Sombra na borda (branca) */  
-        margin-left: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .circle-tree::before {
+        /*cria um segundo  círculo maior para a borda*/
+        content: '';
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background: linear-gradient(45deg, rgba(238, 130, 238, 1) 2%, rgba(81, 40, 51, 1) 42%, rgba(96, 55, 66, 1) 78%);
+        animation: animatecircle 3s linear infinite;
+    }
+
+    /*criando a animação da borda do circle com gradiente*/
+    @keyframes animatecircle {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .circle-tree::after {
+        /*criando um terceiro círculo para dar uma ilusão de ótica da mesma cor do primeiro círculo*/
+        content: '';
+        position: absolute;
+        background-color: #1c1c1c;
+        inset: 5px;
+        top,
+        bottom,
+        left. right;
+        border-radius: inherit;
+        z-index: 0;
     }
 </style>
 <script>
