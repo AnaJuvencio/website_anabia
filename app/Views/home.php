@@ -41,11 +41,13 @@
             </div>
         </div>
     </div>
-    <div class='conatiner-xxl container-two'>
+    <div class='container-xxl container-two'>
         <div class='row'>
-            <div class="col">
+            <div class="col" style="position: relative">
                 <h1><span></span></h1>
-                <p class="segunda-frase"></p>
+                <div class="frase-cont2" style="height: 150px; overflow: hidden;">
+                    <p class="segunda-frase" style="text-align: justify"></p>
+                </div>
                 <a href="link" onclick="adicionarEstilo()" title="Conheça"
                     class="myButton" style="padding: 20px 50px; font-size: 14px; height: auto; text-decoration: none;">
                     <div class="font" style="font-weight: bold; font-family: poppins; text-transform: uppercase;">Sobre mim</div>
@@ -58,6 +60,14 @@
                     </div>
                 </center>
             </div>
+        </div>
+    </div>
+    <div class="container-xxl container-tree">
+        <h1>Habilidades</h1>
+        <hr>
+        <br>
+        <div class="circle-tree">
+            <img src='../../public/images/html.png'>
         </div>
     </div>
 </body>
@@ -119,7 +129,8 @@
     .container-two h1 {
         text-align: center;
         color: #fff;
-        padding-top: 10%;
+        padding-top: 8%;
+        margin-left: 30%;
     }
 
     .container-two h2 {
@@ -240,9 +251,8 @@
             border-radius: 42px;
             display: inline-block;
             cursor: pointer;
-            position: relative;
-            color: #fff;
-            /* Define a cor do texto como branco */
+            position: absolute;
+            color: #fff;/* Define a cor do texto como branco */
         }
     }
 
@@ -255,9 +265,9 @@
             border-radius: 42px;
             display: inline-block;
             cursor: pointer;
-            position: relative;
-            color: #fff;
-            /* Define a cor do texto como branco */
+            position: absolute;
+            color: #fff;  /* Define a cor do texto como branco */
+            margin-left: 50%;
         }
     }
 
@@ -286,9 +296,57 @@
 
     .myButton:hover .font {
         color: transparent;
-        background-image: linear-gradient(180deg, rgba(81, 40, 51, 1) 57%, rgba(22, 22, 22, 1) 100%);
+        /*background-image: linear-gradient(180deg, rgba(81, 40, 51, 1) 57%, rgba(22, 22, 22, 1) 100%);*/
+        background-color: #512833;
         background-clip: text;
         -webkit-background-clip: text;
+    }
+
+    .frase-cont2{
+        margin-left: 20%;
+    }
+    /*terceiro container*/
+    .container-tree{
+        background-color: #161616;
+    }
+    .container-tree h1{
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: poppins;
+        padding: 0px;
+        margin: 0px;
+    }
+    .container-tree hr{
+        border-color: #512833;
+        border-width: 1px;
+        height: 2px;
+        border-style: solid;
+        width: 10%;
+        position: relative;
+        left: 45%;
+    }
+    .container-tree img{
+        width: 70%;
+        height: auto;
+        position: absolute;
+        left: 24px;
+        top: 20px;
+    }
+    .circle-tree {
+        width: 150px;
+        height: 150px;
+        background-color: red;
+        border-radius: 50%;
+        /* Define a forma do círculo */
+        position: relative;
+        overflow: hidden;
+        background-color: #1c1c1c;
+        border-color: #fff;
+        border-width: 0px;
+        border-style: solid;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Sombra na borda (branca) */  
+        margin-left: 15%;
     }
 </style>
 <script>
