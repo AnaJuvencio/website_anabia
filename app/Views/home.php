@@ -77,6 +77,18 @@
             <div class="circle-tree circle-tree-js">
                 <img src='../../public/images/js.png' class="js">
             </div>
+            <div class="circle-tree circle-tree-php">
+                <img src='../../public/images/php.png' class="php">
+            </div>
+            <div class="circle-tree circle-tree-c">
+                <img src='../../public/images/c.png' class="c">
+            </div>
+            <div class="circle-tree circle-tree-sql">
+                <img src='../../public/images/sql.png' class="sql">
+            </div>
+            <div class="circle-tree circle-tree-java">
+                <img src='../../public/images/java.png' class="java">
+            </div>
         </div>
     </div>
 </body>
@@ -348,6 +360,10 @@
     }
     .div-hab{
         display: flex;
+        margin: 0 10% 0 9%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap; 
     }
     .html {
         width: 70%;
@@ -368,17 +384,53 @@
         left: 26px;
         top: 30px;
     }
+    .php{
+        width: 75%;
+        height: auto;
+        left: 18px;
+        top: 22px;
+    }
+    .c{
+        width: 75%;
+        height: auto;
+        left: 18px;
+        top: 22px;
+    }
+    .sql{
+        width: 75%;
+        height: auto;
+        left: 18px;
+        top: 22px;
+    }
+    .java{
+        width: 70%;
+        height: auto;
+        left: 23px;
+        top: 3px;
+    }
     .circle-tree-css {
         margin-left: 5%;
     }
 
     .circle-tree-html {
-        margin-left: 15%;
+       /* margin-left: 10%;*/
     }
     .circle-tree-js {
         margin-left: 5%;
     }
-
+    .circle-tree-php {
+        margin-left: 5%;
+    }
+    .circle-tree-c {
+        margin-left: 5%;
+    }
+    .circle-tree-sql {
+        margin-top: 5%;
+    }
+    .circle-tree-java {
+        margin-left: 5%;
+        margin-top: 5%;
+    }
     .circle-tree {
         width: 150px;
         /*tamanho do cículo*/
