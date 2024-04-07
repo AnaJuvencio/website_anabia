@@ -10,4 +10,5 @@ Bootstrap é um framework de front-end de código aberto, ele fornece um conjunt
 Documentação:
 
 ## Animações
-Efeito de digitar utilizando css e um script.
+Dois efeitos de digitação de palavras utilizando css e um script. <br/>
+Efeito de borda animada com gradiente
