@@ -19,6 +19,8 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
     <?php include ("components/header.php"); ?>
 </head>
 
@@ -48,8 +50,26 @@
                 <div class="frase-cont2" style="height: 150px; overflow: hidden;">
                     <p class="segunda-frase" style="text-align: justify"></p>
                 </div>
+                <div>
+                    <ul class="social-icons">
+                        <li><a href="https://www.facebook.com/projetobemparatodos?locale=pt_BR" target="_blank"><i
+                                    class="fab fa-facebook"></i></a></li>
+                        <!-- <li><a href="link" target="_blank"><i class="fab fa-twitter"></i></a></li>  -->
+                        <li><a href="https://www.instagram.com/projetobemparatodos_/" target="_blank"><i
+                                    class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/@projetobemparatodos7816" target="_blank"><i
+                                    class="fab fa-youtube"></i></a></li>
+                        <!--<li><a href="link" target="_blank"><i class="fab fa-whatsapp"></i></a></li>  -->
+                        <!--<li><a href="link" target="_blank"><i class="far fa-envelope"></i></a></li>-->
+                        <li><a href="https://www.linkedin.com/company/projeto-bem-para-todos-sp/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a></li>
+                        <!--<li><a href="link" target="_blank"><i class="fab fa-cloud"></i></a></li> -->
+                    </ul>
+
+                </div>
+
                 <a href="link" onclick="adicionarEstilo()" title="Conheça" class="myButton"
-                    style="padding: 20px 50px; font-size: 14px; height: auto; text-decoration: none;">
+                    style="padding: 20px 75px; font-size: 14px; height: auto; text-decoration: none;">
                     <div class="font" style="font-weight: bold; font-family: poppins; text-transform: uppercase;">Sobre
                         mim</div>
                 </a>
@@ -291,7 +311,7 @@
             position: absolute;
             color: #fff;
             /* Define a cor do texto como branco */
-            margin-left: 50%;
+            margin-left: 47%;
         }
     }
 
@@ -330,6 +350,70 @@
         margin-left: 20%;
     }
 
+    /*icones*/
+    .social-icons {
+        list-style: none;
+        display: table;
+        /*margin: 0 !important;*/
+        margin-left: 47%;
+        margin-bottom: 5%;
+    }
+
+    .social-icons li {
+        display: inline-block;
+        float: left;
+        padding: 0;
+        margin-right: 5px;
+    }
+
+    .social-icons li:last-child {
+        margin-right: 0;
+    }
+
+    .social-icons li a {
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        background: #1c1c1c;
+        color: #fff;
+        transition: 0.3s;
+    }
+
+    .social-icons li a:hover {
+        background: #512833;
+        color: #fff;
+    }
+
+    .social-icons li a i {
+        line-height: 40px !important;
+    }
+
+    .social-icons.vertical {
+        width: 40px;
+    }
+
+    .social-icons.vertical li {
+        margin-bottom: 5px;
+    }
+
+    .social-icons.vertical li:last-child {
+        margin-right: 0;
+    }
+
+    .social-icons.vertical li a {
+        background: #1c1c1c;
+        color: #fff;
+    }
+
+    .social-icons.vertical li a:hover {
+        background: #512833;
+        color: #fff;
+    }
+
     /*terceiro container*/
     .container-tree {
         background-color: #161616;
@@ -358,13 +442,15 @@
         position: absolute;
         z-index: 2;
     }
-    .div-hab{
+
+    .div-hab {
         display: flex;
         margin: 0 10% 0 9%;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
     }
+
     .html {
         width: 70%;
         height: auto;
@@ -378,59 +464,71 @@
         left: 38px;
         top: 15px;
     }
-    .js{
+
+    .js {
         width: 67%;
         height: auto;
         left: 26px;
         top: 30px;
     }
-    .php{
+
+    .php {
         width: 75%;
         height: auto;
         left: 18px;
         top: 22px;
     }
-    .c{
+
+    .c {
         width: 75%;
         height: auto;
         left: 18px;
         top: 22px;
     }
-    .sql{
+
+    .sql {
         width: 75%;
         height: auto;
         left: 18px;
         top: 22px;
     }
-    .java{
+
+    .java {
         width: 70%;
         height: auto;
         left: 23px;
         top: 3px;
     }
+
     .circle-tree-css {
         margin-left: 5%;
     }
 
     .circle-tree-html {
-       /* margin-left: 10%;*/
+        /* margin-left: 10%;*/
     }
+
     .circle-tree-js {
         margin-left: 5%;
     }
+
     .circle-tree-php {
         margin-left: 5%;
     }
+
     .circle-tree-c {
         margin-left: 5%;
     }
+
     .circle-tree-sql {
         margin-top: 5%;
     }
+
     .circle-tree-java {
         margin-left: 5%;
         margin-top: 5%;
     }
+
     .circle-tree {
         width: 150px;
         /*tamanho do cículo*/
