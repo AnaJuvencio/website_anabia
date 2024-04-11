@@ -52,16 +52,16 @@
                 </div>
                 <div>
                     <ul class="social-icons">
-                        <li><a href="https://www.facebook.com/projetobemparatodos?locale=pt_BR" target="_blank"><i
-                                    class="fab fa-facebook"></i></a></li>
+                        <!--<li><a href="https://www.facebook.com/projetobemparatodos?locale=pt_BR" target="_blank"><i
+                                    class="fab fa-facebook"></i></a></li> -->
                         <!-- <li><a href="link" target="_blank"><i class="fab fa-twitter"></i></a></li>  -->
-                        <li><a href="https://www.instagram.com/projetobemparatodos_/" target="_blank"><i
-                                    class="fab fa-instagram"></i></a></li>
-                        <li><a href="https://www.youtube.com/@projetobemparatodos7816" target="_blank"><i
-                                    class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://github.com/AnaJuvencio/AnaJuvencio" target="_blank"><i
+                                    class="fab fa-github"></i></a></li>
+                        <!--li><a href="https://www.youtube.com/@projetobemparatodos7816" target="_blank"><i
+                                    class="fab fa-youtube"></i></a></li>-->
                         <!--<li><a href="link" target="_blank"><i class="fab fa-whatsapp"></i></a></li>  -->
-                        <!--<li><a href="link" target="_blank"><i class="far fa-envelope"></i></a></li>-->
-                        <li><a href="https://www.linkedin.com/company/projeto-bem-para-todos-sp/" target="_blank"><i
+                        <li><a href="mailto:ana.juvencio01@gmail.com" target="_blank"><i class="far fa-envelope"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/beatrizjuvencio/" target="_blank"><i
                                     class="fab fa-linkedin"></i></a></li>
                         <!--<li><a href="link" target="_blank"><i class="fab fa-cloud"></i></a></li> -->
                     </ul>
@@ -322,7 +322,8 @@
         inset: 0;
         border-radius: 42px;
         padding: 4px;
-        background: linear-gradient(180deg, rgba(81, 40, 51, 1) 57%, rgba(22, 22, 22, 1) 100%);
+        background: rgb(96,55,66);
+background: linear-gradient(360deg, rgba(96,55,66,0.9836309523809523) 0%, rgba(238,130,238,1) 38%, rgba(238,130,238,1) 63%, rgba(81,40,51,1) 100%);
         -webkit-mask:
             linear-gradient(#fff 0 0) content-box,
             linear-gradient(#fff 0 0);
@@ -355,7 +356,7 @@
         list-style: none;
         display: table;
         /*margin: 0 !important;*/
-        margin-left: 47%;
+        margin-left: 51%;
         margin-bottom: 5%;
     }
 
@@ -424,7 +425,7 @@
         text-align: center;
         text-transform: uppercase;
         font-family: poppins;
-        padding: 0px;
+        padding: 5% 0 0 0;
         margin: 0px;
     }
 
@@ -449,6 +450,7 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        padding: 5% 0 10% 0;
     }
 
     .html {
@@ -487,17 +489,17 @@
     }
 
     .sql {
-        width: 75%;
+        width: 70%;
         height: auto;
-        left: 18px;
+        left: 22px;
         top: 22px;
     }
 
     .java {
-        width: 70%;
+        width: 65%;
         height: auto;
-        left: 23px;
-        top: 3px;
+        left: 27px;
+        top: 6px;
     }
 
     .circle-tree-css {
