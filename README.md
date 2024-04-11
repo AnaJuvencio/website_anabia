@@ -1,5 +1,5 @@
-# website_anabia
-Projeto criado utilizando o CodeIgniter 4 e Bootstrap.
+# Website
+Projeto criado utilizando o CodeIgniter 4 e Bootstrap. O foco é pôr em prática os conhecimentos de programação e utilização de frameworks.
 
 ## O que é o CodeIgniter:
 CodeIgniter é um framework de desenvolvimento de aplicativos da web de código aberto, baseado no padrão MVC (Model-View-Controller). Ele é uma escolha popular para desenvolvedores devido à sua facilidade de uso, desempenho sólido e flexibilidade, sendo uma opção robusta para a criação de uma ampla gama de aplicativos da web.
